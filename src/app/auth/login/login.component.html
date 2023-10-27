@@ -1,0 +1,17 @@
+    <!-- Login -->
+    <div class="content">
+        <div class="page">
+            <form (ngSubmit)="authenticated()" class="formLogin">
+                <h1>Login</h1>
+                <p>Digite os seus dados de acesso no campo abaixo.</p>
+                <label for="text">Usuário</label>
+                <input type="text" placeholder="Usuário" [(ngModel)]="username" name="username"/>
+                <label for="password">Senha</label>
+                <input type="password" placeholder="Senha" [(ngModel)]="password" name="password" />
+                <a routerLink="/">Esqueci minha senha</a>
+                <button type="submit" class="btn">Acessar</button>
+            </form>
+            
+      </div>
+      </div>
+      <!-- Fim do login -->

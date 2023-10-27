@@ -1,0 +1,63 @@
+<!--Barra de navegação-->
+<header class="header">
+  <div class="navBar">
+    <nav class="dropdown">
+      <div class="dropbtn">
+
+        <button>Arquivo</button>
+        <div class="dropdown-content">
+          <a routerLink="">Item 1</a>
+          <a routerLink="">Item 2</a>
+        </div>
+
+        <button class="dropbtn">Relatórios</button>
+        <div class="dropdown-content">
+          <a routerLink="">Item 3</a>
+          <a routerLink="">Item 4</a>
+        </div>
+
+        <button class="dropbtn">Segurança de Senhas</button>
+        <div class="dropdown-content">
+          <a routerLink="">Item 5</a>
+          <a routerLink="">Item 6</a>
+        </div>
+
+        <button class="dropbtn">Permissão Usuário Classe</button>
+        <div class="dropdown-content">
+          <a routerLink="">Item 7</a>
+          <a routerLink="">Item 8</a>
+        </div>
+
+        <button class="dropbtn">Sobre</button>
+        <div class="dropdown-content">
+          <a routerLink="">Item 9</a>
+          <a routerLink="">Item 10</a>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+  <!--Menu hamburguer-->
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <button class="nav-button" (click)="openNav()">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </button>
+      <ul class="menu">
+        <li><a routerLink="/users"> Usuário </a></li>
+        <li><a routerLink="/userclass"> Classe de Usuários </a></li>
+        <li><a routerLink="/userprofileif"> Perfil do Usuário por Instituição </a></li>
+        <li><a routerLink="/featuresclass"> Classe por Funcionalidades </a></li>
+        <li><a routerLink="/userclassmsg"> Classe de Usuários por Mensagem </a></li>
+        <li><a routerLink="/login" (click)="logout()">Sair</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--Fim do menu hamburguer-->
+
+</header>
+<!--Fim da barra de navegação-->
