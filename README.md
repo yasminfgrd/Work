@@ -1,6 +1,17 @@
 # Work
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+# Necessário instalar node.js
+Versão 18.18.0
+
+# Necessário instalar angular cli 
+npm install @angular/cli
+Versão @angular/cli@16.2.3
+
+# Projeto versão
+version 16.2.4.
+
+# Necessário instalar pacotes do projeto comandos:
+npm install 
 
 ## Development server
 
@@ -25,3 +36,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Helps
+
+# Como criar um app angular
+npm init @angular myApp
+
+# Como rodar o app angular
+npm start
